@@ -1,3 +1,33 @@
 html{
-    font-family: "comic sans MS", cursive, sans-serif;
+    font-family:"Comic Sans MS", cursive, sans-serif;
 }
+h1{
+    color: #595749;
+    font-weight: bold;
+    text-align: center;
+}
+.p{
+    font-size: small;
+    color: #292b30;
+}
+
+.button{
+    background-color: #767d87;
+    border: none;
+    color: white;
+    padding: 14px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+}
+.button:hover{
+    background-color: white;
+    color: black;
+    border-color: #767d87;
+}    
+
+    
