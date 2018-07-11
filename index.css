@@ -19,13 +19,16 @@ h1{
     font-size: medium;
     color: #292b30;
 }
+.listitem_1{
+     text-decoration: line-through;
+ }
 li{
     margin-top: 25px;
 }
 li:hover{
     background-color: #d6b776;
     border: none;
-    padding: 3px;
+    padding: 7px;
     font-size: 16px;
     margin: 4px 2px;
     opacity: 0.6;
@@ -39,4 +42,6 @@ li:hover{
     border:none;
     padding:5px 20px;
  }
- 
+ #add-new-todo-button:hover{
+     cursor: pointer;
+ }
