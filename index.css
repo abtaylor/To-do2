@@ -6,9 +6,14 @@ h1{
     color: #7f5a0c;
     font-weight: bold;
     text-align: center;
+    background: #dcc289;
+    padding: 3px;
+    display: block;
+    
 }
-span1{
+.item{
     font-size: large;
+
 }
 .pomo{
     font-size: medium;
@@ -16,4 +21,22 @@ span1{
 }
 li{
     margin-top: 25px;
+}
+li:hover{
+    background-color: #d6b776;
+    border: none;
+    padding: 3px;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: block;
+    text-decoration: none;
+    cursor: pointer;
  }
+#add-new-todo-button{
+    background: #7f5a0c;
+    border:none;
+    padding:5px 20px;
+ }
+ 
