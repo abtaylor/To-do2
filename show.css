@@ -1,8 +1,13 @@
 html{
     font-family:"Comic Sans MS", cursive, sans-serif;
+    background-color: #cca553;
 }
 h1{
-    color: #595749;
+    color: #7f5a0c;
     font-weight: bold;
     text-align: center;
+    background: #dcc289;
+    padding: 3px;
+    display: block;
+    
 }
